@@ -275,7 +275,7 @@ class ExtensionConfig(object):
       os.path.join(self.sm_root, 'public', 'amtl'),
       os.path.join(self.sm_root, 'public', 'jit'),
       os.path.join(self.sm_root, 'public', 'jit', 'x86'),
-      os.path.join(self.sm_root, 'extensions', 'common', 'include'),
+      os.path.join(self.sm_root, 'extensions', 'sm-ext-common', 'include'),
       os.path.join(self.sm_root, 'sourcepawn', 'include'),
       os.path.join(self.sm_root, 'sourcepawn', 'vm'),
       os.path.join(self.sm_root, 'sourcepawn', 'vm', 'x86'),

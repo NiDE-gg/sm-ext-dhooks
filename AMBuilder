@@ -23,7 +23,7 @@ project.sources += [
   os.path.join('DynamicHooks', 'conventions', 'x86MsCdecl.cpp'),
   os.path.join('DynamicHooks', 'conventions', 'x86MsStdcall.cpp'),
   os.path.join('DynamicHooks', 'conventions', 'x86MsFastcall.cpp'),
-  os.path.join(Extension.sm_root, 'extensions', 'common', 'mathstubs.c'),
+  os.path.join(Extension.sm_root, 'extensions', 'sm-ext-common', 'mathstubs.c'),
   os.path.join(Extension.sm_root, 'public', 'smsdk_ext.cpp'),
   os.path.join(Extension.sm_root, 'public', 'CDetour', 'detours.cpp'),
   os.path.join(Extension.sm_root, 'public', 'asm', 'asm.c'),
